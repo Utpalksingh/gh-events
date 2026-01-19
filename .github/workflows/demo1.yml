@@ -9,6 +9,8 @@ on:
       - .github/workflows/demo1.yml
   push:
     branches:
+      - dev
+      - master
       - main
   workflow_dispatch:    
 
