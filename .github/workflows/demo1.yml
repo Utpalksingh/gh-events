@@ -7,6 +7,9 @@ on:
       - synchronize
     paths:
       - .github/workflows/demo1.yml
+  push:
+    branches:
+      - main
   workflow_dispatch:    
 
 jobs:
