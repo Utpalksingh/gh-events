@@ -5,7 +5,7 @@ on:
       - opened
       - reopened
       - synchronize
-    paths:
+    paths-ignore:
       - .github/workflows/demo1.yml
   workflow_dispatch:    
 
